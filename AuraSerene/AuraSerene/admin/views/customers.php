@@ -187,6 +187,7 @@ $customers = $conn->query("SELECT * FROM customers");
                     </tr>
                 </thead>
                 <tbody>
+                    
                     <?php while($row = $customers->fetch_assoc()): ?>
                         <tr>
                             <td><?= $row['id'] ?></td>
